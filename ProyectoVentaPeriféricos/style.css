@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+  background-color:rgb(36, 36, 36);
+}
+.hero{ 
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+    position: relative;
+}
+.titulo{
+    background-color: rgb(36, 36, 36);
+    border-radius: 3px;
+    color: #F8F8FF;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.boton-rebote {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F8F8FF;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    animation: rebote 1.0s infinite alternate;
+    margin-top: 15px;
+    margin-left: 155px;
+  }
+  
+  @keyframes rebote {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(25px);
+    }
+  }
+  header{
+    display: flex;
+    margin-top: 50px;
+    background-color:rgb(79, 77, 77) ;
+    height: 75px;
+    border: white 2px solid ;
+    align-items: center;
+    justify-content:space-between ;
+  }
+  header div{
+    color: azure;
+  margin-left: 35px;
+  font-size: 30px;
+  }
+  header ul{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  header li{
+    color: azure;
+    box-shadow: #F8F8FF 4px 5px 4px;
+    border: #F8F8FF 1PX solid;
+    padding: 10px 10px;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+.product-1{
+  margin-top: 50px;
+  border: #F8F8FF 3px solid;
+  margin-left: 100px;
+  background-color: rgb(79, 77, 77);
+  width: 85%;
+  height: 100vh;
+
+}
+.product-2{
+  height: 100vh;
+  margin-top: 50px;
+  border: #F8F8FF 3px solid;
+  margin-left: 100px;
+  background-color: rgb(79, 77, 77);
+  width: 85%;
+  height: 100vh;
+
+}
+.product-3{
+  height: 100vh;
+  margin-top: 50px;
+  border: #F8F8FF 3px solid;
+  margin-left: 100px;
+  background-color: rgb(79, 77, 77);
+  width: 85%;
+  height: 100vh;
+
+}
+.imagen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border: #F8F8FF 3px solid;
+  background-color:rgb(116, 113, 113) ;
+  margin-top: 50px;
+  margin-left:205px;
+  height: 350px;
+  width: 70%;
+}
+.imagen img{
+  border: black 3px solid;
+  box-shadow: black 30px 12px 10px;
+}
+.especificaciones{
+  background-color:rgb(116, 113, 113) ;
+  margin-top: 35px;
+  margin-left: 205px;
+  height: 200px;
+  width: 70%;
+  border: #F8F8FF 3px solid;
+
+}
+.especificaciones ul{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.especificaciones li{
+  margin-top: 24px;
+  font-size: large;
+  color:whitesmoke ;
+}
+
+.element{
+  opacity: 0;
+  transition: opacity 2.5s;
+}
+.aparecer {
+  opacity: 1;
+}

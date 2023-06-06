@@ -1,0 +1,86 @@
+*{
+  box-sizing: content-box;
+  margin: 0;
+}
+
+body{
+    background-color: aqua;
+}
+header{
+
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black ;
+    height: 75px;
+    top: 0;
+    border: 4px white  solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 125px;
+    height: 500px;
+    width: 1250px;
+    border: 5px blue;
+    background-color: #2a70c5;
+}
+.carousel-container {
+    margin-left: 75px;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    height: 500px;
+  }
+  #carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1.5s ease-out;
+    border: 5px solid rgb(237, 225, 225);
+    width: 600px;
+    height: 400px;
+  }
+  #prev-button{
+    font-size: 15px;
+    border: gray 2px solid;
+    background-color: white;
+    border-radius: 15px;
+    color: #2a70c5;
+    margin-right: 50px;
+    width: 75px;
+    height: 55px;
+  }
+  #next-button{
+    
+    font-size: 14px;
+    border: gray 2px solid;
+    background-color: white;
+    border-radius: 15px;
+    color: #2a70c5;
+    margin-left: 50px;
+    width: 75px;
+    height: 55px;
+  }
+  #prev-button:hover{
+    font-size: medium;
+    border: #2a70c5;
+    color: azure;
+    cursor: pointer;
+    background-color: rgb(43, 161, 225);
+  }
+  #next-button:hover{
+    font-size: medium;
+    border: #2a70c5;
+    color: azure;
+    cursor: pointer;
+    background-color: rgb(43, 161, 225);
+  }
